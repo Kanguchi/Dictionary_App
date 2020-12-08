@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Text, View, TouchableOpacity, TextInput, StyleSheet} from 'react-native';
 import {Header} from 'react-native-elements';
 
-export default class HomeScreen extends React.Component{
+class HomeScreen extends React.Component{
     constructor(){
         super();
         this.state={
@@ -90,6 +90,8 @@ export default class HomeScreen extends React.Component{
         )
     }
 }
+
+export default HomeScreen;
 
 const styles = StyleSheet.create({
     container: {
